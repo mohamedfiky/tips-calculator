@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import Bill from './components/Bill.js';
+import Person_Tip from './components/Person-Tip.js';
+import Result from './components/Result.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Bill />
+      <Person_Tip text="How did you like the service?" />
+      <Person_Tip text="How did your friend like the service?" />
+      <Result />
     </div>
   );
 }
