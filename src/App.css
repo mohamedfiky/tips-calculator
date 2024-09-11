@@ -1,3 +1,12 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    color: #444;
+}
+
 div{
     margin: 14px 6px;
 }
@@ -7,12 +16,14 @@ span{
     padding-right: 10px;
 }
 
-input{
+input, select{
     padding: 5px 10px;
+    display: inline-block;
+    margin-top: 6px;
 }
 
 p{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     color: #444;
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Result() {
+function Result({total, billValue, tipMoney, reset}) {
   return (
     <div className="result">
-        <p>You should pay {110}$ ({100}$ + {10}$)</p>
-        <button>Reset</button>
+        <p>You should pay ${total} (${billValue} bill + ${tipMoney} tip)</p>
+        <button onClick={reset}>Reset</button>
     </div>
   )
 }

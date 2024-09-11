@@ -1,3 +1,10 @@
+# Simple Tip Calculator
+
+It consists of an input to inter the bill value and 2 select boxes to allow you and your frient to add tip percentage,
+then calculate the total bill value after adding the tip percent average.
+
+----------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
